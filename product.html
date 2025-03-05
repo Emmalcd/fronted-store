@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEnd Store</title>
+    <link rel="preconnect" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="logo" />
+      </a>
+    </header>
+    <nav class="navegacion">
+      <a class="navegacion__enlace navegacion__enlace--activo" href="index.html"
+        >Store</a
+      >
+      <a class="navegacion__enlace" href="about-us.html">About Us</a>
+    </nav>
+
+    <main class="contenedor">
+      <h1>React JS</h1>
+      <div class="camisa">
+        <img src="img/3.jpg" alt="imagen de camisa" class="camisa__img" />
+        <div class="camisa__contenido">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            laudantium quaerat quas. Cumque, quisquam reprehenderit? Quasi iusto
+            aspernatur dolor omnis id facilis consequatur sint suscipit numquam,
+            porro eligendi libero explicabo.
+          </p>
+          <form class="formulario">
+            <select class="formulario__campo">
+              <option class="formulario__option" disabled selected>
+                --Size--
+              </option>
+              <option class="formulario__option">Short</option>
+              <option class="formulario__option">Medium</option>
+              <option class="formulario__option">Large</option>
+            </select>
+            <input
+              class="formulario__campo"
+              type="number"
+              placeholder="Quantity"
+              min="1"
+            />
+            <input
+              class="formulario__submit"
+              type="submit"
+              value="Add to cart"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">FrontEnd Store - All rigths reserved</p>
+    </footer>
+  </body>
+</html>
